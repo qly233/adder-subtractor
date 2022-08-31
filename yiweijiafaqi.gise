@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="yiweijiafaqi.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="yiweijiafaqi.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="yiweijiafaqi.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="yiweijiafaqi.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="yiweijiafaqi.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="yiweijiafaqi.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="yiweijiafaqi.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="yiweijiafaqi.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="yiweijiafaqi.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="yiweijiafaqi.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="yiweijiafaqi.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="yiweijiafaqi.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="yiweijiafaqi.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="yiweijiafaqi.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="yiweijiafaqi.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="yiweijiafaqi.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="yiweijiafaqi.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="yiweijiafaqi.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="yiweijiafaqi.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="yiweijiafaqi.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="yiweijiafaqi.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="yiweijiafaqi.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="yiweijiafaqi.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="yiweijiafaqi.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="yiweijiafaqi_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="yiweijiafaqi_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="yiweijiafaqi_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="yiweijiafaqi_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="yiweijiafaqi_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="yiweijiafaqi_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="yiweijiafaqi_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="yiweijiafaqi_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="yiweijiafaqi_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="yiweijiafaqi_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="yiweijiafaqi_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="yiweijiafaqi_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="yiweijiafaqi_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="yiweijiafaqi_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="yiweijiafaqi_xst.xrpt"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1650969199" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1650969199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970075" xil_pn:in_ck="-6317390077352646844" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1650970075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="yiweijiafaqi.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1650969199" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4846834790194202313" xil_pn:start_ts="1650969199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650969199" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-1119169853662409259" xil_pn:start_ts="1650969199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650969199" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3672359041630593474" xil_pn:start_ts="1650969199">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970075" xil_pn:in_ck="-6317390077352646844" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1650970075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="yiweijiafaqi.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970078" xil_pn:in_ck="-6317390077352646844" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3886462792435381443" xil_pn:start_ts="1650970075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_beh.prj"/>
+      <outfile xil_pn:name="test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970078" xil_pn:in_ck="4140465173363612911" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3146704178770760256" xil_pn:start_ts="1650970078">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="test_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8113434061571608367" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3672359041630593474" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4714145040620404749" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529613026076843" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650968912" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2271302506895877492" xil_pn:start_ts="1650968912">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650969980" xil_pn:in_ck="-2556592026770413312" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="8407787632620222431" xil_pn:start_ts="1650969971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+      <outfile xil_pn:name="yiweijiafaqi.lso"/>
+      <outfile xil_pn:name="yiweijiafaqi.ngc"/>
+      <outfile xil_pn:name="yiweijiafaqi.ngr"/>
+      <outfile xil_pn:name="yiweijiafaqi.prj"/>
+      <outfile xil_pn:name="yiweijiafaqi.stx"/>
+      <outfile xil_pn:name="yiweijiafaqi.syr"/>
+      <outfile xil_pn:name="yiweijiafaqi.xst"/>
+      <outfile xil_pn:name="yiweijiafaqi_xst.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1650969412" xil_pn:in_ck="1329637977162199528" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-6828186472980326882" xil_pn:start_ts="1650969412">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970026" xil_pn:in_ck="1728503254989884042" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="327459686191825939" xil_pn:start_ts="1650970020">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="yiweijiafaqi.bld"/>
+      <outfile xil_pn:name="yiweijiafaqi.ngd"/>
+      <outfile xil_pn:name="yiweijiafaqi_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970041" xil_pn:in_ck="-2096825840223310709" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="-3356044330833714826" xil_pn:start_ts="1650970026">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="yiweijiafaqi.pcf"/>
+      <outfile xil_pn:name="yiweijiafaqi_map.map"/>
+      <outfile xil_pn:name="yiweijiafaqi_map.mrp"/>
+      <outfile xil_pn:name="yiweijiafaqi_map.ncd"/>
+      <outfile xil_pn:name="yiweijiafaqi_map.ngm"/>
+      <outfile xil_pn:name="yiweijiafaqi_map.xrpt"/>
+      <outfile xil_pn:name="yiweijiafaqi_summary.xml"/>
+      <outfile xil_pn:name="yiweijiafaqi_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970064" xil_pn:in_ck="-6045580670766927068" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1650970041">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="yiweijiafaqi.ncd"/>
+      <outfile xil_pn:name="yiweijiafaqi.pad"/>
+      <outfile xil_pn:name="yiweijiafaqi.par"/>
+      <outfile xil_pn:name="yiweijiafaqi.ptwx"/>
+      <outfile xil_pn:name="yiweijiafaqi.unroutes"/>
+      <outfile xil_pn:name="yiweijiafaqi.xpi"/>
+      <outfile xil_pn:name="yiweijiafaqi_pad.csv"/>
+      <outfile xil_pn:name="yiweijiafaqi_pad.txt"/>
+      <outfile xil_pn:name="yiweijiafaqi_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970164" xil_pn:in_ck="1329637977162191903" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="-1515489902325417289" xil_pn:start_ts="1650970141">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="yiweijiafaqi.bgn"/>
+      <outfile xil_pn:name="yiweijiafaqi.bit"/>
+      <outfile xil_pn:name="yiweijiafaqi.drc"/>
+      <outfile xil_pn:name="yiweijiafaqi.ut"/>
+    </transform>
+    <transform xil_pn:end_ts="1650970064" xil_pn:in_ck="4784524737760502791" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817468" xil_pn:start_ts="1650970054">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="yiweijiafaqi.twr"/>
+      <outfile xil_pn:name="yiweijiafaqi.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

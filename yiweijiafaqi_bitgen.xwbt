@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\zuchengyuanli\yiweijiafaqi\yiweijiafaqi.ncd
+OUTFILE=D:\zuchengyuanli\yiweijiafaqi\yiweijiafaqi.bit
+FAMILY=Artix7
+PART=xc7a100t-2lfgg484
+WORKINGDIR=D:\zuchengyuanli\yiweijiafaqi
+LICENSE=WebPack
+USER_INFO=__0_0_0

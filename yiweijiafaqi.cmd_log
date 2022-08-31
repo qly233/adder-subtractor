@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "D:/szdl/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/szdl/yiweijiafaqi/yiweijiafaqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/szdl/yiweijiafaqi/yiweijiafaqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/szdl/yiweijiafaqi/yiweijiafaqi.syr" 
+xst -intstyle ise -ifn "D:/szdl/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/szdl/yiweijiafaqi/yiweijiafaqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-fgg484-2L yiweijiafaqi.ngc yiweijiafaqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o yiweijiafaqi_map.ncd yiweijiafaqi.ngd yiweijiafaqi.pcf 
+par -w -intstyle ise -ol high -mt off yiweijiafaqi_map.ncd yiweijiafaqi.ncd yiweijiafaqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml yiweijiafaqi.twx yiweijiafaqi.ncd -o yiweijiafaqi.twr yiweijiafaqi.pcf 
+xst -intstyle ise -ifn "D:/szdl/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/szdl/yiweijiafaqi/yiweijiafaqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-fgg484-2L yiweijiafaqi.ngc yiweijiafaqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o yiweijiafaqi_map.ncd yiweijiafaqi.ngd yiweijiafaqi.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc yiweijiafaqi.ucf -p xc7a100t-fgg484-2L yiweijiafaqi.ngc yiweijiafaqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o yiweijiafaqi_map.ncd yiweijiafaqi.ngd yiweijiafaqi.pcf 
+par -w -intstyle ise -ol high -mt off yiweijiafaqi_map.ncd yiweijiafaqi.ncd yiweijiafaqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml yiweijiafaqi.twx yiweijiafaqi.ncd -o yiweijiafaqi.twr yiweijiafaqi.pcf -ucf yiweijiafaqi.ucf 
+bitgen -intstyle ise -f yiweijiafaqi.ut yiweijiafaqi.ncd 
+xst -intstyle ise -ifn "D:/zuchengyuanli/yiweijiafaqi/yiweijiafaqi.xst" -ofn "D:/zuchengyuanli/yiweijiafaqi/yiweijiafaqi.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc yiweijiafaqi.ucf -p xc7a100t-fgg484-2L yiweijiafaqi.ngc yiweijiafaqi.ngd  
+map -intstyle ise -p xc7a100t-fgg484-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o yiweijiafaqi_map.ncd yiweijiafaqi.ngd yiweijiafaqi.pcf 
+par -w -intstyle ise -ol high -mt off yiweijiafaqi_map.ncd yiweijiafaqi.ncd yiweijiafaqi.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml yiweijiafaqi.twx yiweijiafaqi.ncd -o yiweijiafaqi.twr yiweijiafaqi.pcf -ucf yiweijiafaqi.ucf 
+bitgen -intstyle ise -f yiweijiafaqi.ut yiweijiafaqi.ncd 

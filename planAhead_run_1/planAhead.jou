@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Apr 26 18:35:33 2022
+# Process ID: 25632
+# Log file: D:/szdl/yiweijiafaqi/planAhead_run_1/planAhead.log
+# Journal file: D:/szdl/yiweijiafaqi/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/szdl/yiweijiafaqi/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS18 [get_ports [list A]]
+set_property iostandard LVCMOS18 [get_ports [list B]]
+set_property iostandard LVCMOS18 [get_ports [list C1]]
+set_property iostandard LVCMOS18 [get_ports [list C2]]
+set_property iostandard LVCMOS18 [get_ports [list F]]
+set_property pulltype PULLDOWN [get_ports [list A]]
+set_property pulltype PULLDOWN [get_ports [list B]]
+set_property pulltype PULLDOWN [get_ports [list C1]]
+startgroup
+set_property package_pin T3 [get_ports A]
+endgroup
+startgroup
+set_property package_pin U3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin T4 [get_ports C1]
+endgroup
+startgroup
+set_property package_pin R1 [get_ports C2]
+endgroup
+startgroup
+set_property package_pin P2 [get_ports F]
+endgroup
+save_constraints
